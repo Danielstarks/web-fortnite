@@ -1,9 +1,9 @@
 # web-fortnite
 
 # Sobre o projeto
-https://web-vigens.vercel.app/
+https://web-fortnite.vercel.app/
 
-Website thema game fortnite, uma página moderna intuitiva e interrativa para soltar a criatividade em UI Design.
+Website thema game fortnite, uma página home moderna intuitiva e interrativa para soltar a criatividade em UI Design.
 
 ## Layout web
 ![Web 1]()
@@ -25,18 +25,14 @@ Website thema game fortnite, uma página moderna intuitiva e interrativa para so
 Pré-requisitos: git / github / bash / vs code 
 
 ```bash
-# clonar repositório
+# clonar repositório no github.
 git clone https://github.com/Danielstarks/web-viagens.git
 
-# entrar na pasta do projeto front end web
+# entrar na pasta do projeto web-fortnite.
 cd web-fortnite
 
-# instalar dependências
- VS CODE
-sudo apt-get install vs-code
- 
-# executar o projeto
-plugin live serve
+# iniciar vs code.
+code .
 ```
 
 # Autor
@@ -45,15 +41,22 @@ Daniel Gomes dos Santos
 
 https://www.linkedin.com/in/daniel-santos1/
 
-# entrar na pasta do projeto front end web
-cd web-fortnite
+# entrar na pasta do projeto web-fortnite
 
+```bash
+cd web-fortnite
+```
 # instalar dependências
- VS CODE
+ - VS CODE
  <br>
+  https://code.visualstudio.com/download
+  
+ # Linux bash
+```bash
 sudo apt-get install vs-code
+```
  
-# executar o projeto
-plugin live server
+# Tools para executar o projeto no vs code
+- Plugin Live server
 
 
