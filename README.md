@@ -1,4 +1,4 @@
-# web-fortnite
+# Web Fortnite
 
 # Sobre o projeto
 https://web-fortnite.vercel.app/
@@ -6,8 +6,7 @@ https://web-fortnite.vercel.app/
 Website thema game fortnite, uma página home moderna intuitiva e interrativa para soltar a criatividade em UI Design.
 
 ## Layout web
-![Web 1]()
-![Web 2]()
+![Web 1](https://github.com/Danielstarks/web-fortnite/blob/main/img/web-1.png)
 
 # Tecnologias utilizadas
 ## Front end
