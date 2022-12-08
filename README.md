@@ -54,7 +54,6 @@ cd web-fortnite
 sudo apt-get install vs-code
  
 # executar o projeto
-plugin live serve
-```
+plugin live server
 
 
