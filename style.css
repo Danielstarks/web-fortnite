@@ -12,16 +12,17 @@
 
 /* ======== Header ==============*/
 body {
-    min-width: 100%;
+    max-width: 100%;
     height: 100%;
     background: radial-gradient(#f9d349, 20%, #D57E12);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .main-width {
-    width: 1400px;
+    min-width: 100vh;
     max-width: 95%;
     margin: 0 auto;
 }
@@ -127,30 +128,31 @@ span:hover {
 /* ======= Home ========== */
 
 .content {
+    position: relative;
+    height: 100vh;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100vw;
-    height: 100%;
+    align-items: center;
+    gap: 2rem;
 }
 
 .main-text {
-    width: 100%;
+    width: 80%;
     margin-bottom: 10px;
 }
 
-
 .image img {
     display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    object-fit: fill;
 }
 
 .content .main-text h6 {
     font-size: 14px;
     font-weight: 400;
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 15px;
 }
 
 .content .main-text h1 {
@@ -169,7 +171,7 @@ span:hover {
 }
 
 .content .main-text p {
-    padding: 30px;
+    width: 80%;
     color: white;
     line-height: 1.8;
     font-size: 18px;
@@ -221,7 +223,7 @@ span:hover {
 /* ============ Social ================ */
 .social {
     display: block;
-    margin-top: -2rem;
+    margin-top: -240px;
 }
 
 .social a {
@@ -244,36 +246,34 @@ span:hover {
 
 
     .content {
-        padding: 30px ;
-        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         margin: 0 auto;
-      
     }
 
     .main-text {
-        width: 50%;
         text-align: center;
         margin-bottom: 10px;
     }
 
-    .main-text h1{
+    .main-text h1 {
         font-size: 25px;
-    }
-    
-    .main-text p{
-        width: 100%;
+        z-index: 1;
     }
 
-    .social{
-        margin:  0 auto;
+    .main-text p {
+        margin: 0 auto;
+    }
+
+    .social {
+        margin: 0 auto;
         margin-top: 3rem;
     }
 
-    .social a{
+    .social a {
         font-size: 45px;
     }
+
     /* Menu Hamburger*/
 
     .nav-menu {
@@ -288,6 +288,7 @@ span:hover {
         margin-top: 20%;
         text-align: center;
         transition: 0.3s;
+        z-index: 2;
     }
 
     .nav-item {
@@ -300,6 +301,7 @@ span:hover {
 
     .hamburger {
         display: block;
+        z-index: 2;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -319,35 +321,39 @@ span:hover {
         max-width: 100%;
     }
 
+    .imge {
+        margin: 0 auto
+    }
+
     .main-width {
         display: grid;
         grid-template-columns: 1fr;
 
     }
 
+    .social {
+        margin: 0 auto;
+    }
+
+
 }
+
 @media(max-width: 768px) {
 
-    header{
-        width: 95%;
-    }
+
+
     .content {
-        padding: 30px;
-        width: 100%;
-        display: grid;
         grid-template-columns: 1fr;
         margin: 0 auto;
-      
     }
 
     .main-text {
-        width: 100%;
         text-align: center;
         margin-bottom: 10px;
     }
-    
-    .main-text p{
-        width: 100%;
+
+    .main-text p {
+        margin: 0 auto;
     }
 
 
@@ -365,6 +371,7 @@ span:hover {
         margin-top: 20%;
         text-align: center;
         transition: 0.3s;
+        z-index: 2;
     }
 
     .nav-item {
@@ -377,6 +384,7 @@ span:hover {
 
     .hamburger {
         display: block;
+        z-index: 2;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -393,12 +401,15 @@ span:hover {
 
     .image img {
         display: block;
-        max-width: 100%;
+        max-width: 75%;
+        object-fit: fill;
     }
 
     .main-width {
-        display: grid;
-        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
 
+    .social {
+        margin: 0 auto;
     }
 }
